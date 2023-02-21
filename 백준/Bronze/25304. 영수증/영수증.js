@@ -9,8 +9,4 @@ for(let i = 2; i <= Number(input[1]) + 1; i++) {
     sum += arr[0] * arr[1]
 }
 
-if(total === sum) {
-  console.log('Yes')
-} else {
-  console.log('No')
-}
+console.log(total === sum ? 'Yes' : 'No')
