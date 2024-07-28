@@ -1,6 +1,4 @@
 function solution(numbers) {
-    var answer = 0;
-    let sum = numbers.map(i => answer += i)
     
-    return answer / sum.length;
+    return numbers.reduce((a, b) => a + b) / numbers.length;
 }
